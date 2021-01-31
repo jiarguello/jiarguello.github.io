@@ -16,20 +16,7 @@ a:hover {
 
 figcaption{
   font: 10px italic;
-  padding-bottom: 50px;
-}
-
-.name-title {
-  font-size: 30px;
-  padding: 0px 0px 0px 0px;
   text-align: center;
-}
-
-.sub-title-phrase {
-  color: gray;
-  font-size: 20px;
-  padding-bottom: 50px;
-  text-align: center; 
 }
 
 h3 {
@@ -39,6 +26,12 @@ h3 {
 
 p {
   font-size: 20px;
+}
+
+#all-projects {
+  display: flex;
+  justify-content: space-around;
+  margin: 0% 20% 0 20%;
 }
 
 #description1{
@@ -102,6 +95,12 @@ p {
   width: 40%;
 }
 
+.name-title {
+  font-size: 30px;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+}
+
 #navegationOtherPage {
   padding: 0px 0px 20px 0px;
   font-size: 20px;
@@ -115,6 +114,10 @@ p {
   text-align: center;
 }
 
+.link-project {
+  font-size: 15px;
+}
+
 #profilePicture {
   border-radius: 100%;
   display: block;
@@ -123,6 +126,16 @@ p {
   margin-right: auto;
   padding: 30px;
   width: 120px;
+}
+
+.project-image {
+  opacity: 0.8;
+  width: 180px;
+}
+
+.project-image:hover {
+  justify-content:space-evenly;
+  opacity: 1.0;
 }
 
 #socialMedia {
@@ -147,6 +160,13 @@ p {
   font-size: 20px;
   margin-right: 20%;
   max-width: 30%;
+}
+
+.sub-title-phrase {
+  color: gray;
+  font-size: 20px;
+  padding-bottom: 50px;
+  text-align: center; 
 }
 
 #ul-hard-skills {
