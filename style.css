@@ -46,7 +46,7 @@ hr {
 }
 
 p {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 #description1{
@@ -81,6 +81,16 @@ p {
   width: 20%;
 }
 
+#fotoAbout{
+  border: transparent thin solid;
+  border-radius: 5%;
+  float: left;
+  margin-left: 20%;
+  margin-right: 2%;
+  max-width: 320px;
+  width: 30%;
+}
+
 #gifWorking {
   border-style: hidden;
   height: 300px;
@@ -88,8 +98,25 @@ p {
   text-align: center;
 }
 
+#hardSkills {
+  display: block;
+  float: left;
+  font-size: 20px;
+  margin-left: 20%;
+  max-width: 30%;
+}
+
 #hrFooter {
   width: 100%;
+}
+
+.hrHeader {
+  width: 100%;
+}
+
+#linksMainPage {
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 #navegationOtherPage {
@@ -124,14 +151,19 @@ p {
 
 #socialMedia {
   text-align: center;
+  margin-top: 40px;
+}
+
+#softSkills {
+  display: block;
+  float: right;;
+  font-size: 20px;
+  margin-right: 20%;
+  max-width: 30%;
 }
 
 #trybeTeaching {
   width: 90%;
-}
-
-.hrHeader {
-  width: 100%;
 }
 
 #hrIntersection {
@@ -160,4 +192,12 @@ p {
   padding: 20px 20px 20px 20px;
   text-align: center;
   width: 40px;
+}
+
+#ulhardSkills {
+  display: flex;
+}
+
+#ulsoftSkills {
+  display: flex;
 }
