@@ -1,5 +1,6 @@
 * {
   font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 
 a {
@@ -18,18 +19,13 @@ figcaption{
   padding-bottom: 50px;
 }
 
-header {
-  padding: 10px 0px 0px 0px;
-  text-align: center;
-}
-
-h1 {
+.name-title {
   font-size: 30px;
   padding: 0px 0px 0px 0px;
   text-align: center;
 }
 
-h2 {
+.sub-title-phrase {
   color: gray;
   font-size: 20px;
   padding-bottom: 50px;
@@ -41,18 +37,14 @@ h3 {
   text-align: center;
 }
 
-hr {
-  width: 550px;
-}
-
 p {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 #description1{
   padding: 0px 0px 25px 5px;
   margin-left: 40%;
-  margin-right: 35%;
+  margin-right: 20%;
   text-align: justify;
   width: 40%;
 }
@@ -66,30 +58,48 @@ p {
 }
 
 #footer {
-  padding-top: 0px;
   margin-left: 20%;
   margin-right: 20%;
   text-align: center;
 }
 
-#fotoDePerfil{
+#fotoAbout{
   border: transparent thin solid;
-  border-radius: 20%;
+  border-radius: 5%;
   float: left;
   margin-left: 20%;
-  max-width: 200px;
-  width: 20%;
+  margin-right: 2%;
+  max-width: 320px;
+  width: 30%;
+}
+
+.gif-div {
+  margin: 0 40%;
 }
 
 #gifWorking {
   border-style: hidden;
   height: 300px;
   width: 300px;
-  text-align: center;
 }
 
-#hrFooter {
+.habilities {
+  display: flex;
+  margin: 0 20%;
+}
+
+.hrHeader {
   width: 100%;
+}
+
+#hrIntersection {
+  margin-bottom: 40px;
+  width: 60%;
+}
+
+.hr-main-page {
+  min-width: 450px;
+  width: 40%;
 }
 
 #navegationOtherPage {
@@ -98,15 +108,8 @@ p {
   text-align: right;
 }
 
-#navegationMainPage {
-  padding: 0px 0px 0px 0px;
-  font-size: 25px;
-  text-align: center;
-}
-
 #navegationItem {
   display: inline;
-  list-style: none;
   margin: auto;
   padding: 0px 20px 0px 20px;
   text-align: center;
@@ -124,31 +127,7 @@ p {
 
 #socialMedia {
   text-align: center;
-}
-
-#trybeTeaching {
-  width: 90%;
-}
-
-.hrHeader {
-  width: 100%;
-}
-
-#hrIntersection {
-  margin-bottom: 40px;
-  width: 60%;
-}
-
-.metodologies {
-  border: solid 1px;
-  border-radius: 2%;
-  display: table-cell;
-  height: 150px;
-  margin: 1%;
-  padding: 5px;
-  text-align: center justify;
-  vertical-align: top;
-  width: 20%;
+  margin-top: 40px;
 }
 
 .socialNetworks {
@@ -160,4 +139,32 @@ p {
   padding: 20px 20px 20px 20px;
   text-align: center;
   width: 40px;
+}
+
+#softSkills {
+  display: block;
+  float: right;;
+  font-size: 20px;
+  margin-right: 20%;
+  max-width: 30%;
+}
+
+#ul-hard-skills {
+  display: block;
+  text-align: justify;
+  width: 50%;
+}
+
+#ul-links-main-page {
+  display: flex;
+  margin: auto;
+  min-width: 450px;
+  padding: 15px;
+  width: 40%;
+}
+
+#ul-soft-skills {
+  display: block;
+  text-align: justify;
+  width: 50%;
 }
