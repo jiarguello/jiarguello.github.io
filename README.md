@@ -55,4 +55,3 @@
 
 [![Generic badge](https://img.shields.io/badge/MADE%20WITH-HTML5-orange?style=for-the-badge&logo=appveyor)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/MADE%20WITH-CSS-blue?style=for-the-badge&logo=appveyor)](https://shields.io/)
-[![Generic badge](https://img.shields.io/badge/MADE%20WITH-JavaScript-yellow?style=for-the-badge&logo=appveyor)](https://shields.io/)
